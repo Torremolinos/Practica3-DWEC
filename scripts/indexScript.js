@@ -1,6 +1,6 @@
+import { mostrar } from "./mostrar.js";
+import { saludo } from "./nombre.js";
 document.addEventListener("DOMContentLoaded", function () {
   saludo();
-});
-document.addEventListener("DOMContentLoaded", function () {
   mostrar();
 });
