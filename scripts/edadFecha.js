@@ -1,6 +1,11 @@
 
 //para la fecha
-export function estacion(diaE, mesE) {
+export {dia,mes,anio}
+let dia,mes,anio;
+dia = prompt('Por favor escriba el dia en que nacio');
+mes = prompt('Por favor escriba el dia en que nacio');
+anio = prompt('Por favor escriba el dia en que nacio');
+export function estacion(diaE, mesE,anio) {
     //convertimos el numero a entero porque es de un promp asi que es un string (mesEntero) diaEntero
     let mesEN = parseInt(mesE)
     let mesEL = mesEN.toString()
