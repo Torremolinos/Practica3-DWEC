@@ -1,6 +1,5 @@
 import {nombre,nombreCompleto,nombreCompletoLongitud,corte,indice,ultima,nombreCompletoMayus} from './nombre.js'
 import {coseno, numeroMayor, numeroAleatorio} from "./coseno-max-aleatorio.js";
-import { openTana } from './ventana-refresh.js';
 import { estacionNacimiento,edad} from "./edadFecha.js";
 const abrirVentana = document.createElement("button");
 const reiniciar= document.createElement("button");
