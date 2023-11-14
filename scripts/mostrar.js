@@ -31,7 +31,7 @@ export const mostrar = () => {
 };
 
 abrirVentana.addEventListener("click", ()=>{
-  window.open('templates/openTana.html', "_blank");
+  window.open('templates/openTana.html', "_blank", "height = 1000 , width =800","resizable=no");
 })
 reiniciar.addEventListener("click", () =>{
   location.reload();
